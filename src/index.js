@@ -1,6 +1,6 @@
 const path = require("path");
 const express = require("express");
-const app = express();
+const app = express(); // express library
 
 require("./db/mongoose");
 const userRouter = require("./routers/user");
@@ -23,3 +23,31 @@ app.listen(port, () => {
 });
 
 module.exports.app = app;
+
+
+
+// 3
+
+
+//  database diff - server juda
+
+// development
+
+// staging / testing
+
+// Live
+
+
+
+
+
+
+
+
+
+
+
+// Master ----------> Staging   
+//  |---------------> development
+
+//  | -------------> task-123 
